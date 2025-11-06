@@ -192,6 +192,8 @@ services:
           - core
 
 networks:
+  dokploy-network:
+    external: true
   billionmail-network:
     driver: bridge
     driver_opts:
